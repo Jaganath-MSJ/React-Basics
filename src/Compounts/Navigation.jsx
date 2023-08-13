@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <div className={styles.navigation}>
             <h1>Navigation</h1>
-            <div className={'${styles.navigationButtonContainer}'}>
+            <div className={styles.navigationButtonContainer}>
                 <Link to="/">
                 <button className={styles.navigationButton}>Home</button>
                 </Link>
